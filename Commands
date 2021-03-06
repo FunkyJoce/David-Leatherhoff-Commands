@@ -1,3 +1,6 @@
+amx_sound_help (check available AMXX sounds)
+.secretsounds (check AS available sounds)
+
 amx_point amx_slay (slay the player you're aiming)
 .ent_trigger (trigger the entity you're aiming)
 
