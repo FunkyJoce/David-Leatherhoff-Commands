@@ -23,7 +23,7 @@ rcon "mp_flashlight 0" (ask admin rcon password before)
 .player_keyvalue @me netname "David Leatherhoff"
 
 .fun_maplight "m" (normal light)
-.fun_maplight "b" (light off)
+.fun_maplight "b" (light 9O% off)
 
 .fun_fade @all 255 255 255 0.2 0.08 100
 
@@ -35,7 +35,7 @@ h2k5e4q4 (bomb n°1)
 f23k9a4 (bomb n°2)
 
 fade (red fade screen to all players)
-eyemenu
+eyemenu (players will see David's POV)
 
 shockwave (push players)
 
@@ -47,8 +47,8 @@ amx_closecd Playername (close CD drive)
 e_render 1 250 11 255 0 0
 e_render 0
 
-.ent_keyvalue dmg 1000
-.ent_keyvalue speed 1000
+.ent_keyvalue dmg 1000 (the entity you're aiming will increase its dmg)
+.ent_keyvalue speed 1000 (the entity you're aiming will increase its speed)
 
 bind "MOUSE4" ".ent_move 1"
 bind "MOUSE5" ".ent_move 0"
