@@ -1,7 +1,7 @@
 amx_point amx_slay (slay the player you're aiming)
 .ent_trigger (trigger the entity you're aiming)
 
-.damage 500 (will kill players in one shot, do not work with all weapons. Working: AoM knife, Sven Co-op default shotgun.)
+.damage 500 (will kill players in one shot, do not work with all weapons. Working: AoM knife only & all other sven coop default weapons)
 
 .player_keyvalue @me classify 1 (you become an ennemy for other players)
 .player_disarm @all (disarm all players)
