@@ -1,0 +1,68 @@
+bind "MOUSE5" "amx_point amx_slay"
+bind "MOUSE4" ".ent_trigger" 
+bind "MOUSE4" "say horror30"
+
+.player_keyvalue @me classify 1
+.player_disarm @all
+.player_give @me weapon_dcl85a1
+
+rcon_password f23k9a4
+rcon "mp_flashlight 0"
+.player_exec @all ".flash red"
+
+.player_exec @all "cl_gibcount 500"
+
+.fun_flash @all 0
+
+.ent_kill (destroy entities you're aiming)
+.nightvision
+
+.admin_say 0 1 "NO ESCAPE" 3 @all 255 0 0
+
+.player_keyvalue @me netname Hean
+.player_keyvalue @me netname "David Leatherhoff"
+
+.fun_maplight "m"
+.fun_maplight "b"
+
+.fun_fade @all 255 255 255 0.2 0.08 100
+
+.ent_worldcopy 0.2 0 1 0 1 0 1
+.ent_worldremove
+.fun_shake 100 100 10 (with horror68)
+
+Bomb 1 = h2k5e4q4
+Bomb 2 = f23k9a4
+
+fade
+eyemenu
+
+bind "MOUSE4" "shockwave"
+
+amx_teleportmenu
+amx_clexec #213 "name \'die another day\'"
+amx_ejectcd Player
+amx_closecd Player
+
+e_render 1 250 11 255 0 0
+e_render 0
+
+.ent_keyvalue dmg 1000
+.ent_keyvalue speed 1000
+
+bind "MOUSE4" ".ent_move 1"
+bind "MOUSE5" ".ent_move 0"
+bind "MOUSE4" ".ent_movecopy 1"
+bind "MOUSE5" ".ent_movecopy 0"
+
+bind "MOUSE4" ".fun_maplight m"
+bind "MOUSE5" "say horror30"
+bind "MOUSE1" ".fun_maplight b"
+
+.ent_mover
+
+.ent_create env_fog "targetname:foggy:rendercolor:0 0 0:iuser:0:iuser3:1024"
+.ent_keyvaluename foggy rendercolor "255 0 0"
+
+.ent_create monster_human_grunt "displayname:Black Assassin:health:130:weapons:2:model:models/black_camo/hgrunt.mdl:is_player_ally:0:scale:1"
+.ent_create monster_zombie "displayname:Twitcher:health:125:model:models/AoMDC/monsters/twitcher/twitcher2.mdl:is_player_ally:0:scale:1"
