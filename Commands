@@ -30,8 +30,8 @@ rcon "mp_flashlight 0" (ask admin to use rcon command before)
 .ent_worldremove
 .fun_shake 100 100 10 (with horror68)
 
-Bomb 1 = h2k5e4q4
-Bomb 2 = f23k9a4
+h2k5e4q4 (bomb n°1)
+f23k9a4 (bomb n°2)
 
 fade
 eyemenu
@@ -53,10 +53,6 @@ bind "MOUSE4" ".ent_move 1"
 bind "MOUSE5" ".ent_move 0"
 bind "MOUSE4" ".ent_movecopy 1"
 bind "MOUSE5" ".ent_movecopy 0"
-
-bind "MOUSE4" ".fun_maplight m"
-bind "MOUSE5" "say horror30"
-bind "MOUSE1" ".fun_maplight b"
 
 .ent_mover
 
