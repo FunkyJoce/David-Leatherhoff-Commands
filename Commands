@@ -6,8 +6,7 @@ bind "MOUSE4" "say horror30"
 .player_disarm @all
 .player_give @me weapon_dcl85a1
 
-rcon_password f23k9a4
-rcon "mp_flashlight 0"
+rcon "mp_flashlight 0" (ask admin to use rcon command before)
 .player_exec @all ".flash red"
 
 .player_exec @all "cl_gibcount 500"
