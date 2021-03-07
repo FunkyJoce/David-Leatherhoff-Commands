@@ -4,7 +4,9 @@ amx_sound_help (check available AMXX sounds)
 amx_point amx_slay (slay the player you're aiming)
 .ent_trigger (trigger the entity you're aiming)
 
-.damage 500 (will kill players in one shot, do not work with all weapons. Working: AoM knife only & all other sven coop default weapons)
+.damage 500 (works only with AoM knife and Sven Co-op default weapons)
+or
+.player_keyvalue @me m_flEffectDamage 500 (same but works with all weapons, but will not gibs players)
 
 .player_keyvalue @me classify 1 (you become an ennemy for other players)
 .player_disarm @all (disarm all players)
