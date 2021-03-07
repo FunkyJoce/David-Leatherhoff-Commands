@@ -25,6 +25,9 @@ rcon "mp_flashlight 0" (ask admin rcon password before)
 .player_keyvalue @me netname Hean
 .player_keyvalue @me netname "David Leatherhoff"
 
+.player_exec @name cd eject (eject CD drive)
+.player_exec @name cd close (close CD drive)
+
 .fun_maplight "m" (normal light)
 .fun_maplight "b" (light 9O% off)
 
