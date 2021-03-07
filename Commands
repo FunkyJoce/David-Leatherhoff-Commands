@@ -1,4 +1,4 @@
-amx_sound_help (check available AMXX sounds)
+amx_sound_help (check available AMXX sounds, works only if metamod is enabled)
 .secretsounds (check AS available sounds)
 
 amx_point amx_slay (slay the player you're aiming)
