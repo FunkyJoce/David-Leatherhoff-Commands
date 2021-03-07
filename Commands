@@ -20,7 +20,7 @@ rcon "mp_flashlight 0" (ask admin rcon password before)
 .fun_flash @all 0
 
 .ent_kill (delete entities you're aiming from the map)
-.nightvision
+.nvision
 
 .admin_say 0 1 "NO ESCAPE" 3 @all 255 0 0
 
