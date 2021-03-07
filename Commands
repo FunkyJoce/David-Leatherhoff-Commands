@@ -25,8 +25,8 @@ rcon "mp_flashlight 0" (ask admin rcon password before)
 .player_keyvalue @me netname Hean
 .player_keyvalue @me netname "David Leatherhoff"
 
-.player_exec @name cd eject (eject CD drive)
-.player_exec @name cd close (close CD drive)
+.player_exec @name "cd eject"
+.player_exec @name "cd close"
 
 .fun_maplight "m" (normal light)
 .fun_maplight "b" (light 9O% off)
@@ -58,7 +58,7 @@ bind "MOUSE5" ".ent_move 0"
 bind "MOUSE4" ".ent_movecopy 1"
 bind "MOUSE5" ".ent_movecopy 0"
 
-.ent_mover (it's like weapon_entmover)
+.ent_mover 0/1
 
 .ent_create env_fog "targetname:foggy:rendercolor:0 0 0:iuser:0:iuser3:1024"
 .ent_keyvaluename foggy rendercolor "255 0 0"
