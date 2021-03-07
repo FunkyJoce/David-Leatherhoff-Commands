@@ -46,9 +46,6 @@ eyemenu (players will see David's POV)
 shockwave (push players)
 
 amx_teleportmenu
-amx_clexec #213 "name \'die another day\'"
-amx_ejectcd Playername (open CD drive)
-amx_closecd Playername (close CD drive)
 
 e_render 1 250 11 255 0 0
 e_render 0
