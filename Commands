@@ -37,7 +37,7 @@ rcon "mp_flashlight 0" (ask admin rcon password before)
 
 .ent_worldcopy 0.2 0 1 0 1 0 1
 .ent_worldremove
-.fun_shake 100 100 10 (with horror68)
+.fun_shake 100 100 10 (with horror23)
 
 h2k5e4q4 (bomb n°1)
 f23k9a4 (bomb n°2)
