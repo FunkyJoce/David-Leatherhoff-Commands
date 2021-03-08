@@ -47,8 +47,6 @@ eyemenu (players will see David's POV)
 
 shockwave (push players)
 
-amx_teleportmenu
-
 e_render 1 250 11 255 0 0
 e_render 0
 
