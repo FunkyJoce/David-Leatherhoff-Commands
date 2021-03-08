@@ -12,7 +12,7 @@ or
 .player_disarm @all (disarm all players)
 .player_give @me weapon_dcl85a1 (give you this extra weapon)
 
-rcon "mp_flashlight 0" (ask admin rcon password before)
+rcon mp_flashlight "0" (ask admin rcon password before)
 .player_exec @all ".flash red"
 
 .player_exec @all "cl_gibcount 500"
