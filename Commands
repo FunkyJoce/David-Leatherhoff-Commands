@@ -17,7 +17,7 @@ rcon mp_flashlight "0" (ask admin rcon password before)
 
 .player_exec @all "cl_gibcount 500"
 
-.ent_create env_explosion "iMagnitude:300:targetname:xplode"
+.ent_create env_explosion "iMagnitude:400:targetname:xplode"
 .ent_trigger xplode
 
 .fun_flash @all 0
