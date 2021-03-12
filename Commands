@@ -44,17 +44,6 @@ rcon mp_flashlight "0" (ask admin rcon password before)
 .ent_worldremove
 .fun_shake 100 100 10 (with horror23)
 
-h2k5e4q4 (bomb n°1)
-f23k9a4 (bomb n°2)
-
-fade (red fade screen to all players)
-eyemenu (players will see David's POV)
-
-shockwave (push players)
-
-e_render 1 250 11 255 0 0
-e_render 0
-
 .ent_keyvalue dmg 1000 (the entity you're aiming will increase its dmg)
 .ent_keyvalue speed 1000 (the entity you're aiming will increase its speed)
 
