@@ -5,7 +5,7 @@
 
 .ent_trigger (trigger the entity you're aiming)
 
-.player_keyvalue @aim velocity -600 (It will push the player you're aiming)
+.player_keyvalue @aim velocity 600 (It will push the player you're aiming)
 
 .damage 500 (kill in on shot with the weapon selected. Works only with AoM knife and Sven Co-op default weapons)
 or
