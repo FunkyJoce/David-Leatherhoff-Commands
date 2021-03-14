@@ -54,8 +54,14 @@ bind "MOUSE5" ".ent_movecopy 0"
 
 .ent_mover 0/1
 
+.ent_keyvalue rendermode 1
+.ent_keyvalue renderfx 11
+.ent_keyvalue renderamt 255
+.ent_keyvalue rendercolor 255 0 0
+
 .ent_create env_fog "targetname:foggy:rendercolor:0 0 0:iuser:0:iuser3:1024"
 .ent_keyvaluename foggy rendercolor "255 0 0"
+.ent_kill foggy
 
 .ent_create monster_human_grunt "displayname:Black Assassin:health:130:weapons:2:model:models/black_camo/hgrunt.mdl:is_player_ally:0:scale:1"
 .ent_create monster_zombie "displayname:Twitcher:health:125:model:models/AoMDC/monsters/twitcher/twitcher2.mdl:is_player_ally:0:scale:1"
