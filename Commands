@@ -54,6 +54,7 @@ bind "MOUSE5" ".ent_movecopy 0"
 
 .ent_mover 0/1
 
+Red fast strobe light on door:
 .ent_keyvalue rendermode 1
 .ent_keyvalue renderfx 11
 .ent_keyvalue renderamt 255
